@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Myhome">
 <meta property="og:description" content="背景搭建自己的hexo博客 解决1.草稿相当于很多博客都有的“私密文章”功能。 会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。  &amp;emsp;&amp;emsp;&amp;emsp;$ hexo new draft &amp;quot;new draft&amp;q">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-02T15:46:53.962Z">
+<meta property="og:updated_time" content="2019-04-02T15:56:59.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo yilia主题配置干货">
 <meta name="twitter:description" content="背景搭建自己的hexo博客 解决1.草稿相当于很多博客都有的“私密文章”功能。 会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。  &amp;emsp;&amp;emsp;&amp;emsp;$ hexo new draft &amp;quot;new draft&amp;q">
@@ -249,15 +249,15 @@
 <p>按说语言设置为中文就可以了！但是还是不行！今天在sublime打开才发现中文写的都是乱码！所有千万不要在text文件打开！要用编辑器打开！全部保存为utf-8的编码格式！</p>
 <h4 id="13-Markdown-通用音乐-视频插入方法"><a href="#13-Markdown-通用音乐-视频插入方法" class="headerlink" title="13.Markdown 通用音乐/视频插入方法"></a>13.Markdown 通用音乐/视频插入方法</h4><p><strong>Markdown 通用音乐/视频插入方法</strong></p>
 <p>Markdown 作为轻量级的标记语言，兼容 html 语法，所以可以直接在 Markdown 文档中使用 html 语法。</p>
-<p> \<vedio>标签举例：</vedio></p>
+<p> vedio标签举例：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;video width=&quot;480&quot; height=&quot;320&quot; controls&gt;</span><br><span class="line">&lt;source src=&quot;movie.mp4&quot;&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
-<p>\<embed>标签举例：</p>
+<p>embed标签举例：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;embed src=&quot;http://player.youku.com/player.php/Type/Folder/Fid/27690810/Ob/1/sid/XMTY1MTI3NjMyNA==/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;</span><br></pre></td></tr></table></figure>
-<p>\<iframe>标签举例:</iframe></p>
+<p>iframe标签举例:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe height=498 width=510 src=&quot;http://player.youku.com/embed/XMTY1MTI3NjMyNA==&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
-<p>\javascript标签举例:</p>
+<p>javascript标签举例:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>除\<vedio>标签外，大部分音乐/视频网站都可以直接生成播放器代码，直接粘贴到 Markdown 文档中即可使用。</vedio></p>
+<p>除vedio标签外，大部分音乐/视频网站都可以直接生成播放器代码，直接粘贴到 Markdown 文档中即可使用。</p>
 <p>不过在 https 下，上述的有些标签可能无法正常使用。</p>
 <p><strong>通过 Hexo 插件插入音乐/视频</strong></p>
 <p>这里需要使用两个播放器插件</p>
